@@ -1,87 +1,14 @@
 <html lang="en">
 
 <head>
-    <title>Contoso Sample Web Chat</title>
+    <title>Go ahead Sample Web Chat</title>
+    <link rel="stylesheet" href="styles.css">
     <!--
        This styling is for the Web Chat demonstration purposes.
        It is recommended that style is moved to a separate file for organization in larger projects.
  
        Please visit https://github.com/microsoft/BotFramework-WebChat for details about Web Chat.
      -->
-    <style>
-        html,
-        body {
-            height: 100%;
-            font-family: 'Nunito Sans', sans-serif;
-            margin: 0;
-            background-color: #fff;
-        }
-
-        h1 {
-            font-size: 20px;
-            line-height: 20px;
-            margin: 0;
-            padding: 0 20px;
-            font-family: 'Nunito Sans', sans-serif;
-            color: #fff;
-            font-weight: bold;
-
-        }
-
-        #banner {
-            align-items: center;
-            background: #fff;
-            color: 'White';
-            display: flex;
-            height: 50px;
-            font-family: 'Nunito Sans', sans-serif;
-            border-bottom-left-radius: 20px;
-            /* Curve for bottom-left corner */
-            border-bottom-right-radius: 20px;
-            /* Curve for bottom-right corner */
-
-        }
-
-        #webchat {
-            height: calc(100% - 50px);
-            overflow: hidden;
-            position: fixed;
-            top: 50px;
-            width: 100%;
-            font-family: 'Nunito Sans', sans-serif;
-
-        }
-
-        p {
-            font-family: 'Nunito Sans', sans-serif;
-        }
-
-        .logo {
-
-            height: 40px;
-            width: auto;
-            padding-left: 20px;
-        }
-
-        .webchat__stacked-layout--from-user .webchat__stacked-layout__avatar {
-            align-self: center;
-        }
-
-        .webchat__stacked-layout--from-user .webchat__stacked-layout__message {
-            align-self: center;
-        }
-
-        .webchat__stacked-layout__avatar-gutter {
-
-            align-self: center;
-        }
-
-        .webchat__send-icon {
-            fill: #2e3b6b;
-            /* Change the SVG fill color to blue */
-        }
-
-    </style>
 </head>
 
 <body>
