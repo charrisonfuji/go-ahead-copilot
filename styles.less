@@ -1,0 +1,72 @@
+@primaryColour: #2e3b6b;
+//@secondaryColour: #c41f1f;
+@primaryFont: 'Nunito Sans'; 
+@fallbackFont: sans-serif;
+
+html,
+body {
+    height: 100%;
+    font-family: @primaryFont, @fallbackFont;
+    margin: 0;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0 20px;
+    font-family: @primaryFont, @fallbackFont;
+    color: #fff;
+    font-weight: bold;
+}
+
+#banner {
+    align-items: center;
+    background: #fff;
+    color: 'White';
+    display: flex;
+    height: 50px;
+    font-family: @primaryFont, @fallbackFont;
+    border-bottom-left-radius: 20px;
+    /* Curve for bottom-left corner */
+    border-bottom-right-radius: 20px;
+    /* Curve for bottom-right corner */
+}
+
+#webchat {
+    height: calc(100% - 50px);
+    overflow: hidden;
+    position: fixed;
+    top: 50px;
+    width: 100%;
+    font-family: @primaryFont, @fallbackFont;
+}
+
+p {
+    font-family: @primaryFont, @fallbackFont;
+}
+
+.logo {
+    height: 30px;
+    width:  auto;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.webchat__stacked-layout--from-user .webchat__stacked-layout__avatar {
+    align-self: center;
+}
+
+.webchat__stacked-layout--from-user .webchat__stacked-layout__message {
+    align-self: center;
+}
+
+.webchat__stacked-layout__avatar-gutter {
+    align-self: center;
+}
+
+.webchat__send-icon {
+    fill: @primaryColour;
+    /* Change the SVG fill color to the primary color */
+}
